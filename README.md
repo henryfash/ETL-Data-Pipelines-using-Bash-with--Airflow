@@ -15,7 +15,7 @@ Author an Apache Airflow DAG that will: </br>
 
 **Approach** </br>
 - Create a shell script containing the command to
-    - download, unzip, extract fields from csv, tsv and fixed width files, combine the extracted data, transform the combined data and load.
+- download, unzip, extract fields from csv, tsv and fixed width files, combine the extracted data, transform the combined data and load.
 - create a task in the DAG to call the shell script
 - submit the DAG
 - unpause the DAG
