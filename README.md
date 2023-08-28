@@ -5,6 +5,7 @@ You work as a data engineer for a data analytics consulting firm. Your current p
 **Objectives** </br>
 Author an Apache Airflow DAG that will: </br>
 - Download data
+- unzip data
 - Extract data from a csv file
 - Extract data from a tsv file
 - Extract data from a fixed width file
@@ -13,4 +14,9 @@ Author an Apache Airflow DAG that will: </br>
 - Load the transformed data 
 
 **Approach** </br>
-
+- Create a shell script containing the command to
+    - download, unzip, extract fields from csv, tsv and fixed width files, combine the extracted data, transform the combined data and load.
+- create a task in the DAG to call the shell script
+- submit the DAG
+- unpause the DAG
+- Monitor the DAG
