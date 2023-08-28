@@ -15,7 +15,7 @@ Author an Apache Airflow DAG that will: </br>
 
 **Approach** </br>
 - Create a shell script containing the command to
-  - download
+  download
 -   unzip
 -   extract fields from csv, tsv and fixed width files
 -   combine the extracted data
